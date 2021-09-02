@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(48, 64, 196);
+  color: black;
+}
+
+button {
+  background-color: rgb(48, 64, 196);
+  color: white;
+  width: 150px;
+  padding: 7px;
+}
+#bigBox {
+  margin-top: 100px;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: ; */
+  /* border: solid red ; */
+  border-radius: px;
+  height: 500px;
+}
+
+input {
+  color-adjust: rgb(95, 93, 93);
+  height: 20px;
+}
+#box1 {
+  /* border: solid green; */
+  background-color: rgb(249, 217, 235);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+label {
+  box-color: rgb(95, 93, 93);
+}
+
+p,
+h1 {
+  text-align: left;
+}
+p {
+  font-size: 10px;
+  color: rgb(95, 93, 93);
+}
+
+.box2 {
+  background-color: white;
+  /* border: solid black; */
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 5%;
+  /* font-size: px; */
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.wholeForm > div {
+  /* border: solid rgb(94, 69, 15);  */
+  padding: 10px;
+  text-align: left;
+  text-overflow: clip;
+}
+#box3 {
+  /* border: solid rgb(226, 160, 19); */
+  display: grid;
+  grid: template columns 50% 50%;
+  grid-template-rows: 1fr;
+}
+
+#box4 {
+  /* border: solid rgb(221, 17, 204); */
+  display: grid;
+
+  grid: template columns 50% 50%;
+  grid-template-rows: 1fr;
+}
+#box6 {
+  /* border: solid rgb(19, 226, 53); */
+  display: grid;
+  grid-template-rows: 1fr;
+}
+/* #witting{
+        border: solid rgb(19, 33, 226); 
+       
+    } */
+#box7 {
+  /* border: solid rgb(19, 219, 226); */
+  display: grid;
+  grid-template-rows: 1fr;
+}
+a {
+  color: rgb(48, 64, 196);
+}
