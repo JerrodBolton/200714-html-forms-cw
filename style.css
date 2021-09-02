@@ -1,8 +1,19 @@
+* {
+  font-family:fantasy;
+}
+/* @font-face {
+  font-family: myfont;
+  src:url()
+} */
+
 body {
   background-color: rgb(48, 64, 196);
   color: black;
 }
 
+h1 {
+  /* margin-top: 100px; */
+}
 button {
   background-color: rgb(48, 64, 196);
   color: white;
@@ -35,7 +46,7 @@ label {
 }
 
 p,
-h1 {
+h2 {
   text-align: left;
 }
 p {
@@ -90,4 +101,13 @@ p {
 }
 a {
   color: rgb(48, 64, 196);
+}
+
+h1,
+h3 {
+  text-align: center;
+  color: white;
+  border: solid white;
+  border-radius: 40px;
+  font-size: 30px;
 }
